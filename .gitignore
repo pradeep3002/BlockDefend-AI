@@ -1,0 +1,57 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+*.venv
+
+# Ignore environment variables and sensitive config files
+.env
+config.json
+secrets.json
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.out
+*.err
+*.pid
+
+# Ignore dataset and large files
+data/
+*.csv
+*.json
+*.db
+*.sqlite3
+*.h5  # TensorFlow/Keras model files
+*.pth  # PyTorch model files
+
+# Ignore model checkpoints
+checkpoints/
+*.ckpt
+
+# Ignore machine learning experiment tracking files
+mlruns/
+wandb/
+tensorboard_logs/
+
+# Ignore Docker-related files
+docker-compose.override.yml
+
+# Ignore VS Code and JetBrains IDE settings
+.vscode/
+.idea/
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore Kafka logs
+kafka-logs/
+zookeeper/
