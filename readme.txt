@@ -1,3 +1,5 @@
+# 🛡️BlockDefend-AI
+
 This project proposes a blockchain-based cybersecurity threat intelligence (CTI) and situational awareness system 
 for accurate intrusion alert prediction, leveraging the strengths of both technologies to provide a robust defense 
 mechanism. Blockchain technology ensures secure, tamper-proof data storage, while machine learning models enhance 
@@ -13,3 +15,17 @@ enabling the system to learn complex patterns and relationships within the data.
 By integrating blockchain and deep learning, the system improves threat detection accuracy, providing real-time 
 alerts and better protection against cyber-attacks, while also enabling the secure sharing of threat intelligence 
 across organizations and industries.
+
+## 🔧 Features
+- ✅ **Intrusion Detection**: CNN-based model for real-time threat prediction.
+- ✅ **Blockchain Security**: Ensures tamper-proof storage.
+- ✅ **Real-time Data Processing**: Kafka producer-consumer system.
+- ✅ **Feature Selection**: Mutual Information & PCA.
+
+## 🛠️ Tech Stack
+- **Deep Learning:** TensorFlow, Keras
+- **Blockchain:** Hyperledger/Solidity (if applicable)
+- **Data Streaming:** Kafka, Python Multiprocessing
+- **Feature Selection:** MI & PCA
+- **Backend:** Flask/FastAPI
+- **Database:** MongoDB/PostgreSQL
