@@ -4,8 +4,8 @@ mechanism. Blockchain technology ensures secure, tamper-proof data storage, whil
 detection efficiency through advanced pattern recognition and anomaly detection.
 
 The system utilizes a hybrid approach, combining a Support Vector Machine (SVM) classifier optimized by Particle 
-Swarm Optimization (PSO) for alert segregation, with feature selection performed through Mutual Information (MI) 
-and Principal Component Analysis (PCA). 
+Swarm Optimization (PSO) for training data at first then, proceded with feature selection performed through Mutual Information (MI) 
+and Principal Component Analysis (PCA) for more accuracy.
 
 Furthermore, a Convolutional Neural Network (CNN) with batch normalization is employed for intrusion prediction, 
 enabling the system to learn complex patterns and relationships within the data.
